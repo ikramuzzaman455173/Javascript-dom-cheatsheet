@@ -134,7 +134,7 @@
 #### [Go to top:arrow_up: ](#top)
 
 
-## Element: insertAdjacentElement() method
+## Element insertAdjacentElement method
 
 - `element.insertAdjacentElement(position, element)` - Inserts an element into the specified position relative to the current element.
 
