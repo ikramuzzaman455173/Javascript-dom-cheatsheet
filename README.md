@@ -14,12 +14,13 @@
 5. [Event Handling](#event-handling)
 6. [Common DOM Events](#common-dom-events)
 7. [Traversing the DOM](#traversing-the-dom)
-8. [Window and Document Properties](#window-and-document-properties)
-9. [Form Handling](#form-handling)
-10. [AJAX (Asynchronous JavaScript and XML)](#ajax-asynchronous-javascript-and-xml)
-11. [Local Storage](#local-storage)
-12. [DOM Manipulation Best Practices](#dom-manipulation-best-practices)
-13. [Learning Resources](#learning-resources)
+8. [Element insertAdjacentElement method](element-insertAdjacentElement-method)
+9. [Window and Document Properties](#window-and-document-properties)
+10. [Form Handling](#form-handling)
+11. [AJAX (Asynchronous JavaScript and XML)](#ajax-asynchronous-javascript-and-xml)
+12. [Local Storage](#local-storage)
+13. [DOM Manipulation Best Practices](#dom-manipulation-best-practices)
+14. [Learning Resources](#learning-resources)
 
 ---
 
@@ -131,6 +132,36 @@
 ---
 
 #### [Go to top:arrow_up: ](#top)
+
+
+## Element: insertAdjacentElement() method
+
+- `element.insertAdjacentElement(position, element)` - Inserts an element into the specified position relative to the current element.
+
+   - `position` can be one of the following values:
+     - `"beforebegin"`: Inserts the element as a previous sibling.
+     - `"afterbegin"`: Inserts the element as the first child.
+     - `"beforeend"`: Inserts the element as the last child.
+     - `"afterend"`: Inserts the element as a subsequent sibling.
+     
+   - `element` is the element to be inserted.
+
+   **Example:**
+   ```javascript
+   const parentElement = document.getElementById("parent");
+   const newElement = document.createElement("div");
+   newElement.textContent = "New Element";
+   
+   // Insert newElement as the first child of parentElement
+   parentElement.insertAdjacentElement("afterbegin", newElement);
+   ```
+
+   **Learning Resources:**
+   - [MDN Web Docs: Element.insertAdjacentElement](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement)
+
+
+#### [Go to top:arrow_up: ](#top)
+
 
 ## Window and Document Properties
 
