@@ -14,7 +14,7 @@
 5. [Event Handling](#event-handling)
 6. [Common DOM Events](#common-dom-events)
 7. [Traversing the DOM](#traversing-the-dom)
-8. [Element insertAdjacentElement Method](#element-insertAdjacentElement-method)
+8. [Element: insertAdjacentElement() Method](#element:insertAdjacentElement-method)
 9. [Window and Document Properties](#window-and-document-properties)
 10. [Form Handling](#form-handling)
 11. [AJAX (Asynchronous JavaScript and XML)](#ajax-asynchronous-javascript-and-xml)
@@ -134,7 +134,7 @@
 #### [Go to top:arrow_up: ](#top)
 
 
-## Element insertAdjacentElement method
+## Element: insertAdjacentElement() Method
 
 - `element.insertAdjacentElement(position, element)` - Inserts an element into the specified position relative to the current element.
 
